@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical" >
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	
+	        <ImageView
+	            android:id="@+id/imageView1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="5dp"
+	            android:contentDescription="@string/icon_description"
+	            android:src="@drawable/ic_launcher" />
+	
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:orientation="vertical" >
+	
+	            <TextView
+	                android:id="@+id/tvTestTitle"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textAppearance="?android:attr/textAppearanceLarge" />
+	
+	            <TextView
+	                android:id="@+id/tvTestDate"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textAppearance="?android:attr/textAppearanceSmall" />
+	
+	        </LinearLayout>
+	
+	    </LinearLayout>
+	
+	    <Button
+	        android:id="@+id/bStartTest"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginLeft="35dp"
+	        android:layout_marginRight="35dp"
+	        android:layout_marginTop="10dp"
+	        android:onClick="bStartTest_Click"
+	        android:text="@string/start" />
+	
+	    <Button
+	        android:id="@+id/bViewTest"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginLeft="35dp"
+	        android:layout_marginRight="35dp"
+	        android:layout_marginTop="10dp"
+	        android:onClick="bViewTest_Click"
+	        android:text="@string/view" />
+	
+	    <Button
+	        android:id="@+id/bExportToXML"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="35dp"
+	        android:layout_marginRight="35dp"
+	        android:layout_marginTop="10dp"
+	        android:onClick="bExportToXML_Click"
+	        android:text="@string/export" />
+	
+	    <Button
+	        android:id="@+id/bDeleteTest"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:layout_marginLeft="35dp"
+	        android:layout_marginRight="35dp"
+	        android:layout_marginTop="10dp"
+	        android:text="@string/delete" />
+	
+	</LinearLayout>
+    
+    
+</ScrollView>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Збір інформації</string>
+    <string name="action_settings">Наоаштування</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="icon_description">Іконка</string>
+    <string name="start">Роздати</string>
+    <string name="stop">Стоп</string>
+    <string name="delete">Видалити</string>
+    <string name="view">Пройти опитування</string>
+    <string name="finish">Закінчити:</string>
+    <string name="name">Імя:</string>
+    <string name="importxml">Імпортувати з XML</string>
+    <string name="answer">Відповідь:</string>
+    <string name="connect">Підключення</string>
+    <string name="export">Експортувати в XML</string>
+
+</resources>
